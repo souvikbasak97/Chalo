@@ -153,7 +153,7 @@ export const Crud=()=>{
             <form>
                 <div className="form-group">
                     <input type="name" className="form-control" id="search" name="routename" value={routename}
-                     placeholder="Enter Routename" onChange={e=>{this.handleSearch(e);this.handleInputChange(e)}}/>
+                     placeholder="Enter Routename" onChange={e=>{handleSearch(e);handleInputChange(e)}}/>
                 </div>
                 <div className="form-group mt-3">
                     <label value="">Choose RouteDirection(Up/Down) </label>
